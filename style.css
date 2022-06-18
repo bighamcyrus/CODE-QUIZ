@@ -1,0 +1,19 @@
+
+
+.bodyBox{
+
+    position: absolute;
+    top: 25%;
+   right: 30%;
+   
+}
+
+
+.button{
+top: 0px;
+height: 350px;
+width: 750px;
+background-color: purple;
+text: black;
+font-size: 28px;
+}
