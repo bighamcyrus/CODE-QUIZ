@@ -12,6 +12,9 @@ var score = 0;
 var questioncounter = 0 
 var submitButtonEl= document.querySelector("#submitBtn")
 var initialsEnteredEl= document.querySelector("#initialsEntered")
+var scoresEl = document.querySelector("#scores")
+var initialsLocal = localStorage.getItem("initialsLocal")
+var scoreLocal = localStorage.getItem("scoresLocal")
 var questions = [
     {
     prompt: "How do you set up a new file to be an HTML file?",
@@ -28,6 +31,12 @@ var questions = [
     },
 ]
 
+ function recordScore(){
+       
+        localStorage.setItem("initialsLocal", initialsEntered.value);
+        localStorage.setItem("scoresLocal", secondsLeft);
+        scoresEl.textContent = initialsLocal + " " + scoreLocal;
+    }
 function displayQA() {
     questionBoxEl.innerHTML=""
     answerBoxEl.innerHTML=""
@@ -82,10 +91,7 @@ function startquiz() {
           }
         }, 1000);
     }
-    function recordScore(){
-        console.log(initialsEntered.value)
-        console.log(secondsLeft)
-    }
+   
 
     answeredBtn.addEventListener("click", recordanswer); 
     // answeredBtn.addEventListener("click", recordanswer);

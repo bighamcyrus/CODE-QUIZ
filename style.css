@@ -20,6 +20,12 @@ background-color: rgb(131, 75, 131);
 text: black;
 font-size: 28px;
 }
+.scoresBox{
+
+right: 100%;
+background-color: aqua;
+text:black
+}
 
 .submitButton{
 
