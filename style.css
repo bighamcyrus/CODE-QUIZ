@@ -16,7 +16,13 @@
 top: 0px;
 height: 350px;
 width: 750px;
-background-color: purple;
+background-color: rgb(131, 75, 131);
 text: black;
 font-size: 28px;
+}
+
+.submitButton{
+
+    
+    background-color: rgb(131, 71, 131);
 }
