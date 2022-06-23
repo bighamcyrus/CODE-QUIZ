@@ -6,4 +6,4 @@ This is a quick knowledge test page/ pop quiz on the first section of our class 
 
 live link:https://bighamcyrus.github.io/CODE-QUIZ/
 
-![]()./initial-screen.png)
+![](/initial-screen.png)
