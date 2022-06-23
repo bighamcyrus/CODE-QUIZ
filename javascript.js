@@ -99,10 +99,8 @@ function startquiz() {
     submitButtonEl.addEventListener("click", recordScore)
 
 // psuedo code : 
-//  add event listenr for submit button to 
-// put the initials and the record in local storage
-// return to initial click to start the quiz button 
-// have a place to put the recorded scores 
+//  need to make the recorded scores list items
+// need to start the quiz over when you hit submti score
 
 
 
